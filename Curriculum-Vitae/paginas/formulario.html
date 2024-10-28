@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+    
+</head>
+<body>
+    <a href="../index.html">Home</a>
+    <table>
+    <caption> <h1>Formulario curriculum </h1></caption>
+    
+</table>
+<hr>
+<thead>
+
+<fieldset>
+    <legend><b>Datos personales</b></legend>
+
+<tbody>
+    <form action="http://localhost/proceso.php" method="post">
+       Nombre : <input type="text" name="nombre">
+   
+       <form action="http://localhost/proceso.php" method="post">
+           Apellidos : <input type="text" name="apellidos">
+   
+           <form action="http://localhost/proceso.php" method="post">
+               Edad : <input type="text" name="edad">
+   
+       <p> Genero
+           <input type="radio" name="sexo" value="h"> Hombre
+           <input type="radio" name="sexo" value="m"> Mujer 
+       </p>
+       </form>
+
+
+       <hr>
+
+
+       <fieldset>
+        <legend><b>Contacto</b></legend>
+   
+    <tbody>
+        <form action="http://localhost/proceso.php" method="post">
+           Correo electronico : <input type="text" name="correo electronico">
+       
+           <form action="http://localhost/proceso.php" method="post">
+               Codigo postal : <input type="text" name="Codigo postal">
+       
+               <form action="http://localhost/proceso.php" method="post">
+                   Direccion : <input type="text" name="Direccion">
+       
+         <form action="http://localhost/proceso.php" method=" post">
+            <p>Ciudad</p>
+            <select name = "opciones">
+<option value="1">Martos</option>
+<option value="1">Ubeda</option>
+<option value="1">Jaen</option>
+</form>
+            </select>
+
+            <form action="http://localhost/proceso.php" method="post">
+                Contraseña : <input type="password" name="Contraseña    ">
+           
+                <hr>
+
+                <fieldset>
+                    <legend><b>Datos de interes</b></legend>
+                
+                <tbody>
+                    <p> Estado civil
+                        <input type="radio" name="Casado" value="text"> Casado
+                        <input type="radio" name="No casado" value="text"> No casado 
+                    </p>
+                       <p> Hobbies
+                           <input type="checkbox" name="Deporte" value="Deporte"> Deporte
+                           <input type="checkbox" name="Cine" value="Cine"> Cine 
+                           <input type="checkbox" name="Lectura" value="Lectura"> Lectura 
+                           <input type="checkbox" name="Correr" value="Correr"> Correr 
+                       </p>
+                       
+                       </form>
+
+                       <fieldset>
+                        <legend><b>Comentario del usuario</b></legend>
+                    
+                    <tbody>
+                       <p>Comentario</p> 
+                       <p><textarea name="comentario" placeholder="Escribe tu comentario aqui..." cols="27" rows="4"></textarea></p>
+
+
+                       <br>
+                       <input type="submit" value="Enviar"> 
+                       <input type="reset" value="Reset" /><br />
+   </tbody>
+</thead>
+
+ 
+
+
+
+
+
+    
+</body>
+</html>
